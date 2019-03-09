@@ -1,0 +1,17 @@
+{
+  "name": "facebook-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m1n007",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-fetch": "^2.3.0",
+    "readline-sync": "^1.4.9",
+    "util": "^0.11.1"
+  }
+}
