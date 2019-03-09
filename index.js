@@ -1,8 +1,7 @@
 const fetch = require("node-fetch");
 const moment = require("moment");
 
-const token =
-  "EAAAAAYsX7TsBAJZBEYd9ZASZCLHZCPJ0UrrdvIr9vZCWFZBAmklxY9z1IgWdwZA7BXZCQ6pXFCYb6frVYZAYryVOGdKh0hSSKdTKbzNZBrXkeZCfH0ZBCkd4ZB4qXMoPYSluoRqmMaCnqKAZCGFe1i2ZClyLhDvl9iQSMmq25cVxlo7nXG4BbrKHIZB1FVAZBZB7sEJ8gvTM0iEXuCvZBsOZBOYZAiqtl4vBS";
+const token = "";
 
 function friendList() {
   return new Promise((resolve, reject) => {
