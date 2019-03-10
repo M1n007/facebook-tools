@@ -1,4 +1,4 @@
-# Facebook Tools
+# Facebook Tools v1.0.0
 
 Unfriend inactive users PHP version
 
@@ -26,6 +26,21 @@ $ node index.js
 | ------------- | ------------- |
 | Unfriend Inactive user  | :white_check_mark: |
 | SOON  | :x:  |
+
+## Require
+| FIELD| REQUIRED | FEATURE |
+| ------------- | ------------- |------------- |
+| Access Token  | :white_check_mark: | Unfriend Inactive User |
+| Years| :white_check_mark:  | Unfriend Inactive User |
+
+How to get Access token ?
+
+```javascript
+$ cd lib
+$ node getToken.js
+
+```
+and input username and your password facebook, and then you get the json result. you can get access token from json result
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
