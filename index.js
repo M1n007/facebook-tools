@@ -3,8 +3,7 @@ const friendList = require("./lib/getFriendList");
 const lastActive = require("./lib/lasActive");
 const unfriend = require("./lib/unfriend");
 
-const token =
-  "EAAAAAYsX7TsBANGnESOdezLjLGSWhHndaS2HBqXitvrHzZB0MF87wmc1ssXYM1IORC1KaUjvrHExlCLQkiOn4ZAFvuZCVU4gN27TLNZBQSRHb19aROyckRDqPN8Ob1PFKnL3b3RetgFB27Lwe3oM3cpIJea1iBM3qJIerbNZCz0uY1uVeWITKYIaHCO6HMpW0ZAuZCDkM9OlxyItl0dJR2ZA";
+const token = "";
 
 friendList(token)
   .then(res => {
